@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Collector</title>
+
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <h1>Page Collector</h1>
+            <p>Collect information from the current webpage.</p>
+        </header>
+
+        <section class="actions">
+            <button id="collect-btn" type="button">
+                Collect Page
+            </button>
+        </section>
+
+        <section class="results">
+            <h2>Collected Information</h2>
+
+            <div class="result-item">
+                <h3>Page Title</h3>
+                <p id="page-title">Waiting for collection...</p>
+            </div>
+
+            <div class="result-item">
+                <h3>Page URL</h3>
+                <p id="page-url">No URL collected yet.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p id="status">Status: Ready</p>
+        </footer>
+
+    </main>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
